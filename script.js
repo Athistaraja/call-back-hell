@@ -27,9 +27,6 @@ setTimeout(() => {
                 content.innerText = count;
                 setTimeout(() => {
                   count--;
-                  content.innerText = count;
-                  setTimeout(() => {
-                    count--;
                     content.innerText = count;
                     setTimeout(() => {
                       content.innerText = 'Happy Independence Day';
@@ -42,5 +39,4 @@ setTimeout(() => {
         }, 1000);
       }, 1000);
     }, 1000);
-  }, 1000);
 }, 1000);
